@@ -1,0 +1,14 @@
+name: test
+
+on:
+  push
+
+jobs:
+  test:
+    runs-on: [Ubuntu]
+    env:
+      path: .
+    steps:
+      - run: |
+         echo testtesttest
+    
