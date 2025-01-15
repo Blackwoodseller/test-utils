@@ -5,7 +5,7 @@ on:
 
 jobs:
   test:
-    runs-on: [Ubuntu]
+    runs-on: ubuntu-latest
     env:
       path: .
     steps:
